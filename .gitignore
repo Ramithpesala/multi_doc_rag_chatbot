@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Vector database
+vector_db_dir/
+
+# Secrets
+config.json
+
+# Python cache
+__pycache__/
+*.pyc
