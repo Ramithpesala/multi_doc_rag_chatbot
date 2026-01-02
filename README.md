@@ -61,10 +61,6 @@ Multi_document_RAG_chatbot/
 git clone https://github.com/your-username/multi-document-rag-chatbot.git
 cd multi-document-rag-chatbot
 
----
 
-### 2️⃣ Create a virtual environment
-```bash
-python -m venv .venv
-.venv\Scripts\activate
+
 
