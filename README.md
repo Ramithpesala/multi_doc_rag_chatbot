@@ -21,8 +21,8 @@ A **context-aware Multi-Document Retrieval-Augmented Generation (RAG) chatbot** 
 
 **Pipeline Overview:**
 
-PDF Documents
-↓
+**PDF Documents**
+**↓**
 Text Extraction
 ↓
 Text Chunking
