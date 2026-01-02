@@ -21,21 +21,8 @@ A **context-aware Multi-Document Retrieval-Augmented Generation (RAG) chatbot** 
 
 **Pipeline Overview:**
 
-**PDF Documents**
-**↓**
-Text Extraction
-↓
-Text Chunking
-↓
-Vector Embeddings
-↓
-ChromaDB (Vector Store)
-↓
-Semantic Retrieval
-↓
-LLaMA 3.3 70B (Groq)
-↓
-Conversational Response
+PDF Documents → Text Extraction → Text Chunking → Vector Embeddings (HuggingFace) → ChromaDB (Vector Store) → Semantic Retrieval → LLaMA 3.3 70B (Groq) → Conversational Response
+
 
 
 ---
@@ -74,7 +61,10 @@ Multi_document_RAG_chatbot/
 git clone https://github.com/your-username/multi-document-rag-chatbot.git
 cd multi-document-rag-chatbot
 
+---
+
 ### 2️⃣ Create a virtual environment
+```bash
 python -m venv .venv
 .venv\Scripts\activate
 
