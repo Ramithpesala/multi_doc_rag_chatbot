@@ -1,12 +1,68 @@
-# Virtual environment
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env/
 .venv/
 
-# Vector database
-vector_db_dir/
+# Environment variables
+.env
+.env.*
 
-# Secrets
-config.json
+# =========================
+# Logs
+# =========================
+*.log
+logs/
 
-# Python cache
-__pycache__/
-*.pyc
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Model files
+# =========================
+*.h5
+*.pt
+*.pth
+*.ckpt
+saved_models/
+
+# =========================
+# Vector DB / Embeddings
+# =========================
+chroma/
+faiss_index/
+*.index
+*.pkl
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / dist
+# =========================
+build/
+dist/
+*.egg-info/
