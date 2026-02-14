@@ -248,7 +248,7 @@ For performance, only the last N messages should be sent to avoid token explosio
 ## Author
 
 <p>
-<b>Ramith Pesala</b><br>
+<b>RAMITH PESALA</b><br>
 AI Engineer | RAG Systems | LLM Applications
 </p>
 
