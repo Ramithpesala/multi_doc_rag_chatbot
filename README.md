@@ -84,8 +84,8 @@ multi_document_rag_chatbot/
 ## Installation
 ### 1️⃣ Clone Repository
 ```bash
-git clone <your-repo-url>
-cd rag_sys
+git clone https://github.com/Ramithpesala/multi_doc_rag_chatbot.git
+cd multi_doc_rag_chatbot
 ```
 
 ### 2️⃣ Create Virtual Environment
@@ -218,7 +218,7 @@ For performance, only the last N messages should be sent to avoid token explosio
 
 
 ## Development Workflow
-###Add new documents:
+### Add new documents:
 
 1. Place PDFs in ```data/pdf```
 
